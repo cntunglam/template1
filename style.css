@@ -1,0 +1,202 @@
+/*!
+Theme Name: Customify Child
+Author: Lam Cao
+Template:customify
+version: 10.1
+*/
+:root {
+    --blue:#195e9c;
+    --white: #fff;
+
+}
+
+p {
+    margin:0;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5 {
+    margin:0;
+    text-decoration: none;
+}
+
+.container-section {
+    padding-top: 2rem;
+    max-width: 80rem;
+}
+
+.widget-area .widget *:last-child {
+    color: #fff;
+}
+
+.cta-button-bottom {
+    justify-content: center;
+}
+.cta-button .wp-block-button__link {
+    font-weight: 700;
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 0px;
+    border: var(--blue) 2px solid;
+}
+.cta-button .wp-block-button__link:hover {
+    background-color:var(--white);
+    color: var(--blue);
+    border: var(--blue) 2px solid;
+}
+
+.wp-block-columns {
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+
+.item--button:hover ,
+.customify-btn:hover ,
+.customify-builder-btn:hover,
+.is-icon-before:hover {
+    background-color: var(--white) !important;
+    color: var(--blue);
+    border: var(--blue) 3px solid;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.title-nodes {
+    margin-bottom: 1rem;
+}
+.container-section p { 
+    margin-bottom: 1rem;
+}
+
+.container-section h4 {
+    color: var(--blue);
+    font-weight: 700;
+    font-size:1.2rem;
+}
+
+.container-section h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+/* Banner */
+.banner-header {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-text {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 1rem;
+}
+
+.wp-block-cover-image 
+.wp-block-cover__inner-container, 
+.wp-block-cover 
+.wp-block-cover__inner-container {
+    max-width: 60rem;
+}
+
+@media only screen and (max-width: 40rem) {
+    .container-section {
+        width: 90%;
+    }
+    
+    .wp-block-column {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Package Table */
+.container-section .price-table h4 {
+    font-size: 1.5rem;
+}
+
+.container-section .price-table h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.container-section .price-table ul {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    font-weight: 500;
+    width: 85%;
+}
+.price-table {
+    border-left: 2px var(--blue) solid;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.price-tables {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.price-table:hover {
+    border: 2px var(--blue) solid;
+}
+
+@media only screen and (max-width: 40rem) {
+    .price-table {
+        border: 1px var(--blue) solid;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
+    }
+    .price-table:hover {
+        border: 1px var(--blue) solid;
+    }
+
+    .price-tables {
+        width: 100%;
+    }
+    
+ }
+/* Quote */
+.wp-block-quote p {
+    font-weight: 600;
+}
+
+.wp-block-quote > * {
+    margin-left: 0;
+}
+
+.wp-block-quote cite {
+    font-size: 1rem;
+}
+
+.wp-block-cover__inner-container:hover {
+    opacity: 100;
+}
+
+input[type="submit"] {
+    background-color: var(--blue) !important;
+}
+
+input[type="submit"] {
+    font-weight: 700;
+    background: var(--blue) !important;
+    color: var(--white);
+    border-radius: 0px;
+    border: var(--blue) 2px solid;
+}
+
+/* Testimonial */
+
+.testimonial {
+    justify-content:center;
+	align-items:center;
+    display: flex;
+}
